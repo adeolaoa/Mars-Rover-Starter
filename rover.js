@@ -27,7 +27,7 @@ class Rover {
                result.completed = false;
                result.message = 'Cannot move in LOW_POWER mode';
             } else {
-               this.position += command.value; // Assuming command.value is the distance to move
+               this.position += command.value; 
                result.completed = true;
             }
             break;
