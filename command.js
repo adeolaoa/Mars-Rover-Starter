@@ -9,4 +9,7 @@ class Command {
  
  }
  
+ //let commands = [new Command('STATUS_CHECK')];
+ //console.log(commands.length);
+
  module.exports = Command;
