@@ -119,7 +119,7 @@ describe("Rover class", function() {
     expect(response.results[0].completed).toBe(true);
   
     // Assert that the rover's position has been updated correctly
-    expect(rover.position).toBe(100 + distance); // Assuming initial position is 100
+    expect(rover.position).toBe(distance); // Assuming initial position is 100
   });
 
 });
